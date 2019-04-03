@@ -1,0 +1,228 @@
+[Root]
+Most Recent Package=STANLEY SETUP PACKAGE
+
+
+[Package|Divine Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software
+
+[Package|Divine Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Divine Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Divine Setup Package|Files Found]
+
+[Package|Divine Setup Package|Files Released]
+
+[Package|Divine Setup Package|Missing Dependency Information]
+C:\Windows\SysWOW64\msstdfmt.dll=
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+
+[Package|Divine Setup Package|Out-of-Date Dependency Information]
+
+[Package|Divine Setup Package|Files Added]
+c:\users\roseline\desktop\divineproject\voters1.mdb=
+
+[Package|Divine Setup Package|Files Removed]
+
+[Package|Divine Setup Package|Files In Project]
+C:\Users\Roseline\Desktop\DIVINEPROJECT\divine.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\Roseline\Desktop\DIVINEPROJECT\voters1.mdb=Yes
+
+[Package|Divine Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Divine Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Divine Setup Package|Install Locations]
+C:\Users\Roseline\Desktop\DIVINEPROJECT\divine.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\Roseline\Desktop\DIVINEPROJECT\voters1.mdb=$(AppPath)
+
+[Package|Divine Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\Users\Roseline\Desktop\DIVINEPROJECT\divine.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Users\Roseline\Desktop\DIVINEPROJECT\voters1.mdb=Yes
+
+[Package|Divine Setup Package|Distribution]
+Type=single
+Size=
+Title=INEC VOTERS REGISTRATION SYSTEM
+
+[Package|Divine Setup Package|IconGroups]
+Group0=INEC VOTERS REGISTRATION SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Divine Setup Package|INEC VOTERS REGISTRATION SYSTEM]
+Icon1=divine.EXE
+Title1=INEC VOTERS REGISTRATION SYSTEM
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Divine Setup Package|Package]
+PackageFolder=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software
+ProjectFolder=C:\Users\Roseline\Desktop\DIVINEPROJECT
+ServerSideCab=
+File1=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\setup.exe
+File2=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\Setup.Lst
+File3=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\divine.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|STANLEY SETUP PACKAGE|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\STANFID PROJECT
+
+[Package|STANLEY SETUP PACKAGE|Configure DAO ISAMs]
+Applicable=No
+
+[Package|STANLEY SETUP PACKAGE|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|STANLEY SETUP PACKAGE|Files Found]
+
+[Package|STANLEY SETUP PACKAGE|Files Released]
+
+[Package|STANLEY SETUP PACKAGE|Missing Dependency Information]
+C:\Windows\SysWOW64\msstdfmt.dll=
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+
+[Package|STANLEY SETUP PACKAGE|Out-of-Date Dependency Information]
+
+[Package|STANLEY SETUP PACKAGE|Files Added]
+c:\users\roseline\desktop\divineproject\voters1.mdb=
+
+[Package|STANLEY SETUP PACKAGE|Files Removed]
+
+[Package|STANLEY SETUP PACKAGE|Files In Project]
+C:\Users\Roseline\Desktop\DIVINEPROJECT\divine.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\Roseline\Desktop\DIVINEPROJECT\voters1.mdb=Yes
+
+[Package|STANLEY SETUP PACKAGE|Configure Registry Files]
+Applicable=No
+
+[Package|STANLEY SETUP PACKAGE|Configure Remote Servers]
+Applicable=No
+
+[Package|STANLEY SETUP PACKAGE|Install Locations]
+C:\Users\Roseline\Desktop\DIVINEPROJECT\divine.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\Roseline\Desktop\DIVINEPROJECT\voters1.mdb=$(AppPath)
+
+[Package|STANLEY SETUP PACKAGE|Configure Shared Files]
+Applicable=Yes
+C:\Users\Roseline\Desktop\DIVINEPROJECT\divine.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Users\Roseline\Desktop\DIVINEPROJECT\voters1.mdb=Yes
+
+[Package|STANLEY SETUP PACKAGE|Distribution]
+Type=single
+Size=
+Title=MATRIC CALCULATOR
+
+[Package|STANLEY SETUP PACKAGE|IconGroups]
+Group0=INEC VOTERS REGISTRATION SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|STANLEY SETUP PACKAGE|INEC VOTERS REGISTRATION SYSTEM]
+Icon1=divine.EXE
+Title1=INEC VOTERS REGISTRATION SYSTEM
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=divine.exe
+Title2=MATRIX
+StartIn2=$(AppPath)
+Key2=Icon2
+
+[Package|STANLEY SETUP PACKAGE|Package]
+PackageFolder=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\STANFID PROJECT
+ProjectFolder=C:\Users\Roseline\Desktop\DIVINEPROJECT
+ServerSideCab=
+File1=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\STANFID PROJECT\setup.exe
+File2=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\STANFID PROJECT\Setup.Lst
+File3=C:\Users\Roseline\Desktop\DIVINEPROJECT\pro software\STANFID PROJECT\divine.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
